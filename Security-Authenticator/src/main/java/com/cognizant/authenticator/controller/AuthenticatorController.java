@@ -9,7 +9,7 @@ public class AuthenticatorController {
 	
 	@GetMapping
 	public String authenticate() {
-		return "You have been authenticated, now you can use your RESTful webservice";
+		return "Authentication Succesful!";
 	}
 	
 }
